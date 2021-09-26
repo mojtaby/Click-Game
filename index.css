@@ -1,0 +1,180 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Box{
+    background-color: #0052cc;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    text-align: center;
+    height: 200px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+     font-family: 'Lato', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+
+.point-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#Money-display{
+   background: #33cc00;
+   font-size: 25px;
+   height: 30px; 
+   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+   border: unset;
+   border-radius:2px;
+   margin-right: 20px;
+}
+#Point-display{
+   background: #ffff00;
+   font-size: 25px;
+   height: 30px; 
+   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+   border: unset;
+   border-radius:2px;
+   margin-left: 20px;
+}
+#Shop-btn{
+    font-size: 25px;
+    height: 30px; 
+    background-color: #00e600;
+    border: unset;
+    border-radius:3px;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    width: 200px;
+    margin-left:80px; 
+    margin-top: 20px;
+}
+#sell-btn{
+    font-size: 25px;
+    height: 30px; 
+    background: #33cc00;
+    border: unset;
+    border-radius:3px;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    width: 100px;
+    margin-top:40px;
+    margin-right:120px; 
+}
+#point-btn{
+    font-size: 25px;
+    height: 30px; 
+    background-color: #ffff00;
+    border: unset;
+    border-radius:3px;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    width: 100px;
+}
+
+#shop-form{
+ background-color: #0052cc;
+ height: 300px;
+ width: 350px;
+ position: absolute;
+ margin:20px;
+ padding:0; 
+ display: flex;
+ flex-direction: column;
+ max-width: 400px;
+ box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+ justify-content: center;
+ align-content: center;
+ text-align: center;
+ font-family: 'Lato', sans-serif;
+font-family: 'Roboto', sans-serif;
+    border: unset;
+    border-radius:2px; 
+}
+.Shop-titel{
+    position: relative;
+    top: -54px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+#close-shop-form-btn{
+    background-color: red;
+    width: 40px;
+    font-size: 25px;
+    border: unset;
+    position: relative;
+    left: 155px;
+    z-index: 10;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    padding-bottom: 3px;
+        border: unset;
+    border-radius:3px; 
+}
+
+.Disabled{
+  pointer-events: none;
+  cursor: not-allowed;
+  opacity: 0.65;
+  filter: alpha(opacity=65);
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+#Point-upgrade-form{
+    display: block;
+}
+#Sell-upgrade-form{
+    display: none;
+}
+#Point-upgrade-multiple-btn{
+    width: 90px;
+    height: 40px;
+    font-size: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background-color: #00e600;
+    border: unset;
+    border-radius:3px; 
+}
+
+#Sell-upgrade-multiple-btn{
+    width: 90px;
+    height: 40px;
+    font-size: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background-color: #00e600;
+    border: unset;
+    border-radius:3px; 
+}
+#sell-upgrade-form-btn{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 20px;
+    position: relative;
+    top: -40px;
+    height: 30px;
+    width: 150px;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    background-color: yellow;
+    border: unset;
+    border-radius:3px; 
+}
+#Point-upgrade-form-btn{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    top: -40px;
+    height: 30px;
+    width: 150px;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    background-color: yellow;
+    border: unset;
+    border-radius:3px; 
+}
