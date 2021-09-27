@@ -1,5 +1,7 @@
+<!DOCTYPE html>
 <html>
-    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <head>
+        <title>Click Game</title>
         <link rel="stylesheet" href="index.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -7,37 +9,35 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto:ital,wght@0,700;1,900&display=swap" rel="stylesheet">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
         <div class="Box">
-        <div class="point-div">
-        <h1 id="Money-display">Money : 0$ </h1>
-        <h1 id="Point-display">Point : 0 </h1>
-        </div>
-          <button id="Shop-btn">Shop</button>
+         <div class="point-div">
+           <h1 id="Money-display">Money : 0$ </h1>
+           <h1 id="Point-display">Point : 0 </h1>
+         </div>
+       <button id="Shop-btn">Shop</button>
         <div class="Sell-Point-div">
           <button id="sell-btn">Sell</button>
-            <button id="point-btn">Point +</button>
-        </div>
-        </div>
+           <button id="point-btn">Point +</button>
+          </div>
+         </div>
         <div id="shop-form">
-            <button id="close-shop-form-btn">X</button>
-            <h1 class="Shop-titel">Shop</h1>
-            <button id="Point-upgrade-form-btn" >Point upgrade</button>
-            <button id="sell-upgrade-form-btn" >Sell upgrade</button>
-        <div id="Point-upgrade-form">
+       <button id="close-shop-form-btn">X</button>
+        <h1 class="Shop-titel">Shop</h1>
+         <button id="Point-upgrade-form-btn" >Point upgrade</button>
+          <button id="sell-upgrade-form-btn" >Sell upgrade</button>
+         <div id="Point-upgrade-form" class="Point-upgrade-form">
            <h1 id='Point-upgrade-multiple'>Your Point Multiple +1</h1>
-           <p id="Need-Money-Point-upgrade">Need </p>
+            <p id="Need-Money-Point-upgrade">Need </p>
            <button id="Point-upgrade-multiple-btn">upgrade</button>
-        </div>
-        <div id="sell-upgrade-form">
-            <h1 id='Sell-upgrade-multiple'>Your sell Multiple +1</h1>
-           <p id="Need-Money-Sell-upgrade">Need </p>
+         </div>
+          <div id="sell-upgrade-form">
+           <h1 id='Sell-upgrade-multiple'>Your sell Multiple 1X</h1>
+            <p id="Need-Money-Sell-upgrade">Need </p>
            <button id="Sell-upgrade-multiple-btn">upgrade</button>
-        </div>
-        
-        </div>
+          </div>
+         </div>
         <script src="index.js"></script>
     </body>
 </html>
