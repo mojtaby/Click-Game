@@ -27,7 +27,7 @@ let NeedMoneyUpgradePoint = 50;
 let NeedPointMultiple = 1;
 
 let sellmultiple  = 1;
-let NeedMoneyUpgradeSell = 70;
+let NeedMoneyUpgradeSell = 100;
 let NeedsellMultiple = 1;
 
 // Sell and Point System ---------------------------
